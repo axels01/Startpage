@@ -25,11 +25,14 @@
 }
 
 .row{
+    overflow: auto;
     width: 100%;
+    height: auto;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 .footer{
@@ -38,8 +41,7 @@
 }
 
 .btn{
-    margin: 20px;
-    margin-right: 0px;
+    margin: 10px;
     height: 100px;
     width: 100px;
     background-color: aliceblue;
