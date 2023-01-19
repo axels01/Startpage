@@ -7,7 +7,7 @@
 }
 
 .wrapper{
-    width: 980px;
+    width: 890px;
     height: auto;
     min-height: 140px;
     background-color: #292833;
@@ -31,18 +31,23 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+}
+
+#lastRow{
+    margin-bottom: 0px;
+}
+
+.btn{
+    margin: 5px;
+    height: 100px;
+    width: 100px;
+    background-color: aliceblue;
 }
 
 .footer{
     height: 100px;
     background-color: black;
-}
-
-.btn{
-    margin: 10px;
-    height: 100px;
-    width: 100px;
-    background-color: aliceblue;
 }
