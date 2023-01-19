@@ -7,32 +7,40 @@
 }
 
 .wrapper{
-    width: 1200px;
+    width: 980px;
     height: auto;
-    min-height: 120px;
+    min-height: 140px;
     background-color: #292833;
 }
 
 .header{
-
+    height: 100px;
+    background-color: black;
 }
 
-.clock{
-
+.content{
+    height: auto;
+    width: 100%;
+    background-color: white;
 }
 
-.main{
-
-}
-
-.buttons{
-
-}
-
-.btn{
-    padding-left: 10px;
+.row{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .footer{
+    height: 100px;
+    background-color: black;
+}
 
+.btn{
+    margin: 20px;
+    margin-right: 0px;
+    height: 100px;
+    width: 100px;
+    background-color: aliceblue;
 }
