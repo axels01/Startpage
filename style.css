@@ -1,6 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+
+.text{
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
 
 .body{
+    padding-top:150px;
     display: flex;
     justify-content: center;
     background-color: #292d33;
@@ -10,18 +19,41 @@
     width: 890px;
     height: auto;
     min-height: 140px;
-    background-color: #292833;
+    background-color: #292d33;
 }
 
 .header{
     height: 100px;
-    background-color: black;
+    background-color: #292d33;
+}
+
+.headerSides{
+    width: 245px;
+}
+
+#searchBox{
+    margin-top: 24px;
+    height: 42px;
+    width: 400px;
+    border-radius: 21px;
+    background-color: #24282D;
+    background-image: url("media/DDG-iOS-icon_152x152.png");
+    background-repeat: no-repeat, repeat;
+    background-position: 0%, 50%;
+    background-size:40px;
+}
+
+#ddgSearch{
+    all: unset;
+    margin-left: 40px;
+    height: 40px;
+    width: 340px;
+    background-color: none;
 }
 
 .content{
     height: auto;
     width: 100%;
-    background-color: white;
 }
 
 .row{
@@ -44,10 +76,18 @@
     margin: 5px;
     height: 100px;
     width: 100px;
-    background-color: aliceblue;
+    background-color: #24282D;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;    
+}
+
+.btn:hover{
+    background-color: #3e4247;
 }
 
 .footer{
     height: 100px;
-    background-color: black;
+    background-color: #292d33;
 }
