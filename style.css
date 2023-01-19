@@ -1,0 +1,10 @@
+.mainWrapper{
+    width: 1000px;
+    min-height: 100px;
+    height: auto;
+    margin-left: 16px;
+    margin-right: 16px;
+    background-color: #2B2A33;
+    display: flex;
+    justify-content: center;
+}
