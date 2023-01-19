@@ -6,32 +6,33 @@
     background-color: #292d33;
 }
 
-.mainWrapper{
-    width: 1000px;
+.wrapper{
+    width: 1200px;
     height: auto;
-    margin-left: 16px;
-    margin-right: 16px;
-    background-color: #2B2A33;
-    text-align: center;
+    min-height: 120px;
+    background-color: #292833;
 }
 
-.text{
-    font-family: 'Roboto';
-    font-weight: 100;
-    color: white;
+.header{
+
+}
+
+.clock{
+
+}
+
+.main{
+
 }
 
 .buttons{
-    height: auto;
+
 }
 
-.button{
-    width: auto;
-    height: 100px;
-    min-width: 100px;
-    padding: 20px;
-    margin: auto;
-    background-color: beige;
-    display: inline-block;
-    justify-content: center;
+.btn{
+    padding-left: 10px;
+}
+
+.footer{
+
 }
