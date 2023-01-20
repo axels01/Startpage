@@ -36,9 +36,8 @@
     height: 42px;
     width: 400px;
     border-radius: 21px;
-    background-color: #24282D;
     background-image: url("media/DDG-iOS-icon_152x152.png");
-    background-repeat: no-repeat, repeat;
+    background-repeat: no-repeat;
     background-position: 0%, 50%;
     background-size:40px;
 }
