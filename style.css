@@ -9,7 +9,7 @@
 }
 
 .body{
-    padding-top:150px;
+    padding-top:100px;
     display: flex;
     justify-content: center;
     background-color: #292d33;
@@ -37,6 +37,7 @@
     width: 400px;
     border-radius: 21px;
     background-image: url("media/DDG-iOS-icon_152x152.png");
+    background-color: #24282D;
     background-repeat: no-repeat;
     background-position: 0%, 50%;
     background-size:40px;
