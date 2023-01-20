@@ -75,7 +75,10 @@
 .btn{
     margin: 5px;
     height: 100px;
-    width: 100px;
+    min-width: 80px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: fit-content;
     background-color: #24282D;
     display:flex;
     align-items: center;
