@@ -34,7 +34,8 @@
 #searchBox{
     margin-top: 24px;
     height: 42px;
-    width: 400px;
+    width: calc(100% - 100px);
+    max-width: 400px;
     border-radius: 21px;
     background-image: url("media/DDG-iOS-icon_152x152.png");
     background-color: #24282D;
