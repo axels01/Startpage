@@ -58,6 +58,7 @@
     height: auto;
     width: 100%;
     max-width: 450px;
+    justify-content: center;
 }
 
 .row{
