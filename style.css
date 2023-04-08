@@ -89,5 +89,5 @@
 /*makes footer size dynamically as not to break
 the background-image gradient*/
 .footer{
-    height: calc(100vh - 1226px)
+    height: calc(100vh - 1336px)
 }
