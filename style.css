@@ -1,3 +1,5 @@
+/*Main CSS doc*/
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
 
 .text{
@@ -12,19 +14,16 @@
     padding-top:100px;
     display: flex;
     justify-content: center;
-    background-color: #292d33;
 }
 
 .wrapper{
     width: 500px;
     height: auto;
     min-height: 140px;
-    background-color: #292d33;
 }
 
 .header{
     height: 100px;
-    background-color: #292d33;
 }
 
 .headerSides{
@@ -39,7 +38,6 @@
     max-width: 400px;
     border-radius: 21px;
     background-image: url("media/DDG-iOS-icon_152x152.png");
-    background-color: #24282D;
     background-repeat: no-repeat;
     background-position: 0%, 50%;
     background-size:40px;
@@ -82,18 +80,14 @@
     padding-left: 10px;
     padding-right: 10px;
     width: fit-content;
-    background-color: #24282D;
-    display:flex;
+    display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 10px;    
 }
 
-.btn:hover{
-    background-color: #3e4247;
-}
-
+/*makes footer size dynamically as not to break
+the background-image gradient*/
 .footer{
-    height: 100px;
-    background-color: #292d33;
+    height: calc(100vh - 1226px)
 }

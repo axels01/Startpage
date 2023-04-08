@@ -1,0 +1,48 @@
+/*Color library*/
+
+:root{
+    --color1: #4a285d;
+    --color2: #57265a;
+    --color3: #622556;
+    --color4: #6c2451;
+    --color5: #74244c;
+    --color6: #7b2545;
+    --color7: #81283f;
+    --color8: #852c38;
+    --color9: #883131;
+}
+
+.background { background-image: linear-gradient(var(--color9),var(--color1))}
+
+#searchBox { background-color: var(--color1)}
+
+.row1 { background-color: var(--color2);
+        opacity: 1;}
+.row2 { background-color: var(--color3);
+        opacity: 1;}
+.row3 { background-color: var(--color4);
+        opacity: 1;}
+.row4 { background-color: var(--color5);
+        opacity: 1;}
+.row5 { background-color: var(--color6);
+        opacity: 1;}
+
+
+.row1:hover{opacity: 0.5;}
+.row2:hover{opacity: 0.5;}
+.row3:hover{opacity: 0.5;}
+.row4:hover{opacity: 0.5;}
+.row5:hover{opacity: 0.5;}
+
+/*
+https://colordesigner.io/gradient-generator
+#4a285d
+#57265a
+#622556
+#6c2451
+#74244c
+#7b2545
+#81283f
+#852c38
+#883131
+*/
