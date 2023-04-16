@@ -11,7 +11,7 @@
 }
 
 .body{
-    padding-top:100px;
+    padding-top: 27px;
     display: flex;
     justify-content: center;
 }
@@ -30,13 +30,16 @@
     width: 245px;
 }
 
-#searchBox{
+.roundCornerBox{
     margin: auto;
     margin-top: 24px;
     height: 42px;
     width: calc(100% - 100px);
     max-width: 400px;
     border-radius: 21px;
+}
+
+#searchBox{
     background-image: url("media/DDG-iOS-icon_152x152.png");
     background-repeat: no-repeat;
     background-position: 0%, 50%;
@@ -52,9 +55,15 @@
     background-color: none;
 }
 
+#time{
+    text-align: center;
+    line-height: 42px;
+}
+
 .content{
     height: auto;
     width: 100%;
+    margin-top: -23px;
 }
 
 .row{

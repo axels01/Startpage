@@ -16,15 +16,17 @@
 
 #searchBox { background-color: var(--color1)}
 
-.row1 { background-color: var(--color2);
+#time { background-color: var(--color2)}
+
+.row1 { background-color: var(--color3);
         opacity: 1;}
-.row2 { background-color: var(--color3);
+.row2 { background-color: var(--color4);
         opacity: 1;}
-.row3 { background-color: var(--color4);
+.row3 { background-color: var(--color5);
         opacity: 1;}
-.row4 { background-color: var(--color5);
+.row4 { background-color: var(--color6);
         opacity: 1;}
-.row5 { background-color: var(--color6);
+.row5 { background-color: var(--color7);
         opacity: 1;}
 
 
