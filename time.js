@@ -28,7 +28,7 @@ function timeAndDate(){
     //Adds the content of the updated array into the HTML
     document.querySelectorAll("#time")[0].innerHTML = time[0] + 
         ":" + time[1] + ":" + time[2] + " " + dayArray[time[3]] + 
-        ", " + monthArray[time[4]] + " " + time[5] + ", " + time[6];
+        ", " + monthArray[time[4]] + " " + time[5];
 }
 
 //Calls the function every second
